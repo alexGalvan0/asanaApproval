@@ -6,7 +6,7 @@ Program will delete attachetments evrey week on the announcement_gfx task in asa
 import asana
 
 #Authentication 
-cred = '1/1111064222358483:98aad7b6d15fb22fb8283e174991fa14'
+cred = 'CREDS'
 client = asana.Client.access_token(cred)
 me = client.users.me()
 

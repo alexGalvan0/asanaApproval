@@ -8,7 +8,7 @@ from pprint import pprint as pp
 
 import asana
 
-cred = '1/1111064222358483:98aad7b6d15fb22fb8283e174991fa14'
+cred = 'CRED'
 client = asana.Client.access_token(cred)
 me = client.users.me()
 

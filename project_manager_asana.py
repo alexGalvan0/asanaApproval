@@ -9,7 +9,7 @@ import asana
 from pprint import pprint as pp
 
 #global variables
-cred = '1/1120963410897107:67702d10c95a4b4c9e4dc87672a6adc4'#caitlin creds
+cred = 'CRED'#caitlin creds
 client = asana.Client.access_token(cred)
 
 leads = {'caitlin':'1120963410897111',

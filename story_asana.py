@@ -8,7 +8,7 @@ import asana
 import logging
 from pprint import pprint as pp
 logging.basicConfig(filename = 'asana_log.log',level = logging.INFO, format ='%(asctime)s:%(levelname)s:%(message)s')
-cred = '1/1111064222358483:98aad7b6d15fb22fb8283e174991fa14'
+cred = 'CREDS'
 client = asana.Client.access_token(cred)
 me = client.users.me()
 

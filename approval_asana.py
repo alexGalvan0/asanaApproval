@@ -12,7 +12,7 @@ logging.basicConfig(filename = 'asana_log.log',level = logging.INFO, format ='%(
 # Construct an Asana Client
 def main():
 	#cred = open('creds.txt','r').read()
-	cred = '1/1111064222358483:98aad7b6d15fb22fb8283e174991fa14'
+	cred = 'CREDS'
 	client = asana.Client.access_token(cred)
 	me = client.users.me()
 	# Asana GIDs
