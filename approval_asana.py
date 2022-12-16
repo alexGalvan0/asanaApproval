@@ -48,7 +48,7 @@ def main():
 				smtp_object.starttls()
 				email = 'agalvan@southlandchristian.org'
 				#gmcreds = open('gcred.txt','r').read()
-				gmcreds = 'kzqjxrznnzlsfnnr'
+				gmcreds = 'gmcreds'
 				smtp_object.login(email,gmcreds)
 
 				from_email_address = 'Alex Galvan'

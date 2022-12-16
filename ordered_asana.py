@@ -47,7 +47,7 @@ def main():
                 #gmcreds = open('gcred.txt','r').read()
                 #qujloyjbczswrbtp
                 #kzqjxrznnzlsfnnr
-                gmcreds = 'qujloyjbczswrbtp'
+                gmcreds = 'gmailcreds'
                 smtp_object.login(email,gmcreds)
 
                 from_email_address = 'Creative Team'
